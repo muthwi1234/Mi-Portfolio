@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+#hero {
+  background-image: url("");
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#hero .btn {
+  background-color: #ffd700;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#hero .btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#portfolio {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.item img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.item .btn {
+  background-color: #ffd700;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.item .btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#about {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+#about h2 {
+  font-size: 36px
+}
